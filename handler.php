@@ -9,8 +9,14 @@
 
   <body>
     
-    Welcome <?php echo $_GET["userName"]; ?>.<br>
-    Seriously your name is actually <?php echo $_GET["userName"]; ?> Like damn mb bro but I feel bad.
+    <?php
+    $username = "";
+    if ( isset( $_GET["userName"] ) ){
+      $userName = $_GET["userName"]
+    }
+    echo "<h1>Welcome ".$userName."!</h1>\n";
+    echo "Seriously your name is actually ".$userName."? Like damn mb bro but I feel bad."
+    ?>
   </body>
   
 </html>
