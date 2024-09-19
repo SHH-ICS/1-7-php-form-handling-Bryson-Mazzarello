@@ -10,7 +10,7 @@
   <body>
     
     <?php
-    $username = "";
+    $userName = "";
     if ( isset( $_GET["userName"] ) ){
       $userName = $_GET["userName"]
     }
