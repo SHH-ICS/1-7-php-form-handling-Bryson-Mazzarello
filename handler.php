@@ -39,7 +39,7 @@
       $userName = $_GET["userName"]
     }
     echo "<h1>Welcome ".$userName."!</h1>\n";
-    echo "Seriously your name is actually ".$userName."? Like damn mb bro but I feel bad."
+    echo "Seriously your name is actually ".$userName."? Like damn mb bro but I feel bad.";
     ?>
   </body>
   
