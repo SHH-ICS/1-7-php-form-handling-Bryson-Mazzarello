@@ -29,7 +29,7 @@
       </button>
       <ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect"
         for="demo-menu-lower-left">
-        <a href="/1-5-mdl-html-page-Bryson-Mazzarello/index.html" class="mdl-menu__item">Back to main page</a>
+        <a href="/1-7-php-form-handling-Bryson-Mazzarello/index.html" class="mdl-menu__item">Back to main page</a>
         <li class="mdl-menu__item mdl-menu__item--full-bleed-divider">Another Action</li>
         <li class="mdl-menu__item mdl-menu__item--full-bleed-divider">Another Action</li>
         <li class="mdl-menu__item">Yet Another Action</li>
