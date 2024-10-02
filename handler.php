@@ -23,6 +23,12 @@
   </head>
 
   <body>
+    <button id="demo-menu-lower-left" class="mdl-button mdl-js-button mdl-button--icon">
+      <i class="material-icons">more_vert</i>
+    </button>
+    
+    <ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect"
+    for="demo-menu-lower-left">
     <ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect"
     for="demo-menu-lower-left">
     <p href="/1-7-php-form-handling-Bryson-Mazzarello/index.html" class="mdl-menu__item">Go back to first page</p>
