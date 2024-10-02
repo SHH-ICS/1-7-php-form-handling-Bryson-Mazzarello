@@ -31,6 +31,8 @@
     <li disabled class="mdl-menu__item">Yet Another Action</li>
     </ul>
 
+    <p>Hello, trying to see if this will make the handler load no matter what.</p>
+    
     <?php
     $userName = "";
     if ( isset( $_GET["userName"] ) ){
