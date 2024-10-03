@@ -34,14 +34,13 @@
     </ul>
 
     <p>Hello, trying to see if this will make the handler load no matter what.</p>
-    
-    <?php
-    $userName = "";
-    if ( isset( $_GET["userName"] ) ){
-      $userName = $_GET["userName"]
-    }
-    echo "<h1>Welcome ".$userName."!</h1>\n";
-    echo "Seriously your name is actually".$userName."? Like damn mb bro but I feel bad.";
+      
+     <?php
+      $userName = "";
+      if ( isset( $_GET["userName"] ) );
+        $userName = $_GET["userName"];
+      echo "<h1>Welcome ".$userName."!</h1>\n";
+      echo "Seriously your name is actually ".$userName."? Like damn mb bro but I feel bad."
     ?>
   </body>
   
